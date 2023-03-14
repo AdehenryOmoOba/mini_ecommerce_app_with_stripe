@@ -1,0 +1,1 @@
+using the word "vendor" to name a route in next.JS 13.2 causes error
