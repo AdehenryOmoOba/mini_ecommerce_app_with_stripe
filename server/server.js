@@ -9,6 +9,7 @@ app.get('/api', (req, res) => {
 })
 
 app.get('/api/products', async (req, res) => {
+  console.log('searching for products...again')
  try {
   const products = await ProductsModel.find({})
   res.status(200).json({success: true, products})
